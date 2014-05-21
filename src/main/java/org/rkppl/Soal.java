@@ -17,8 +17,8 @@ public class Soal {
 	@Test
 	public int faktorial(int bil) {
 		int hasil = 1;
-		for (int i = 0; i <= bil; i++) {
-			hasil = i;
+		for (int i = 1; i <= bil; i++) {
+			hasil *= i;
 		}
 		return hasil;
 	}
