@@ -3,8 +3,7 @@ package org.rkppl;
 import org.junit.Test;
 
 public class Soal {
-
-	@Test
+	
 	public int pangkat(int bil, int pangkat) {
 		int hasil = 0;
 		int n = 1;
